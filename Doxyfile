@@ -1,0 +1,40 @@
+# Project name
+PROJECT_NAME           = "CS5480 PennOS Group 48"
+
+# Input directories (set to your project's root directory)
+INPUT                  = ./src 
+
+# File extensions to include
+FILE_PATTERNS          = *.c *.h
+
+# Exclude directories (if needed)
+EXCLUDE                = ./bin ./log ./test
+
+# Enable recursive search
+RECURSIVE              = YES
+
+# Output directory for documentation
+OUTPUT_DIRECTORY       = ./docs
+
+# Generate HTML documentation
+GENERATE_HTML          = NO
+
+# Generate LaTeX documentation (optional)
+GENERATE_LATEX         = YES
+
+# Extract all comments
+EXTRACT_ALL            = YES
+
+# Enable inline comments
+INLINE_INFO            = YES
+
+# Enable source code inclusion
+SOURCE_BROWSER         = YES
+
+USE_PDFLATEX            = YES
+
+HAVE_DOT               = YES
+DOT_PATH               = 
+GENERATE_TREEVIEW      = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES

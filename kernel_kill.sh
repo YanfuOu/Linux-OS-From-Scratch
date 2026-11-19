@@ -1,0 +1,1 @@
+kill $(ps -aux | grep pennos | awk 'NR==1 {print $2}')
