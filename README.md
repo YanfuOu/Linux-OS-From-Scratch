@@ -1,7 +1,7 @@
-# Custom Linux File System, Kernel, Shell, and Operating System from Scratch
+# Custom Linux Operating System Kernel, File System, and Shell from Scratch
 
 ## Overview of work accomplished
-We successfully accomplished our goal of designing our own custom operating system, PennOS. PennOS consist of three major parts: custom file system, kernal, and shell. 
+Designed custom Linux operating system, named PennOS. PennOS consist of three major parts: custom file system, kernal, and shell. 
 
 The custom **file system** is represented by a binary file that emulated a disk or storage spaces. The FS built around a File Allocation Table(FAT) to represent empty and occupied blocks of data that is mapped to physical bytes in the binary file. The FS also manages file descriptors and interactions between files, terminal, and kernal demands.  
 
